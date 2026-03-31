@@ -59,8 +59,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 - **Workspace Repository:** https://github.com/rrudolfo/Code-Design-1.git ⏳
 - **Figma:** @rrudolfo ⏳
 - **CodePen:** https://codepen.io/rrudolfo ⏳
-- **LiveCode:** [Add your LiveCode profile here] ⏳
-- **GitHub Student Pack:** [Confirm approval status here] ⏳
+- **GitHub Student Pack:** Approved ⏳
 
 ### **How to Update Your Toolkit:**
 1. **Click the pencil icon** (✏️) at the top right of this README
