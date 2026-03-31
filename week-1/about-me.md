@@ -3,8 +3,7 @@
 ## Background & Skills
 
 **1. Major:**  
-[Your answer here]
-
+Computer Science
 **2. Design courses completed:**  
 [x] DESN 100  
 [x] DESN 200  
