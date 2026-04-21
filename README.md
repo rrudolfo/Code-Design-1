@@ -1,57 +1,13 @@
-# 🎉 Welcome to DESN368 CODE + DESIGN ONE!
-Travis Masingale · Spring 2026
+# Riley Rudolfo - DESN 368 Porfolio
 
-**Welcome to DESN368 Web Design!**
-This is your course workspace — the place where all your code, designs, and projects live. By the end of the quarter, this repo becomes your portfolio.
+## About
+I'm a computer science student at EWU exploring web design and development. 
+This repo holds all my projects, exercises, and experiments from DESN 368 Spring 2026.
 
----
-
-## 🚀 **NEXT STEPS - START HERE!**
-
-### **Step 1: 🐙 Create a GitHub Account**
-If you don't already have one, sign up at [github.com](https://github.com/signup).
-
-1. Use a **professional username** — this will be part of your portfolio URL
-2. Use your **EWU email** or a personal email you check regularly
-3. Verify your email address
-
-### **Step 2: 🐙 Set Up Your GitHub Profile**
-Make your profile presentable before anything else.
-
-1. Click your avatar (top right) → **Your profile** → **Edit profile**
-2. Add your **real name** (so I know who you are!)
-3. Add a **bio** (e.g., "DESN368 Student | Learning Web Design")
-4. Add a **profile photo** (helps me learn names!)
-
-### **Step 3: 🗂️ Create Your Workspace**
-👉 Click **"Use this template"** → **"Create a new repository"** at the top of this page.
-
-Name your repo something professional — this URL will be part of your portfolio.
-
-### **Step 4: 🚀 Run the Onboarding Workflow**
-Your repo includes an automated workflow that creates setup issues — one for each remaining tool, with checkboxes to track your progress.
-
-1. In **your new repository**, click the **Actions** tab
-2. In the left sidebar, click **"🚀 Create Onboarding Issues"**
-3. Click the **"Run workflow"** dropdown → click the green **"Run workflow"** button
-4. Wait about 30 seconds, then go to your **Issues** tab — you’ll see setup issues for Figma, CodePen, and more
-
-Work through the issues in order, checking off tasks and closing each issue as you finish.
-
-### **Step 5: 📝 Update This README**
-As you complete each tool setup, **come back and update the "My Toolkit" section below** with your actual profile links.
-
-📋 You can also find the full setup checklist at [setup/ONBOARDING-CHECKLIST.md](setup/ONBOARDING-CHECKLIST.md).
-
----
-
-## 👤 **Student Information**
-**Instructor:** Professor Travis Masingale
-**Email:** tmasingale@ewu.edu
-**Course:** DESN368 CODE + DESIGN 1
-**Quarter:** Spring 2026  
-
----
+## What's Inside?
++ 'week-1/' - Newspaper layout, Lost Pet Flyer, Favorite Artist Page
++ 'week-2/' - HTML 101 Exercises, Recipe page, HTML Skeleton
++ 'week-3/' - CSS foundations, Recipe Styling
 
 ## 🛠️ **My Toolkit**
 *Update these links as you complete each tool setup:*
@@ -76,10 +32,10 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 ## 🎯 **Course Progress**
 *Check off assignments as you complete them:*
 
-- [ ] **Week 1:** S3tup & 0nb04rd1ng
-- [ ] **Week 2:** Th3 F1r5t T4g
-- [ ] **Week 3:** D0cum3nt 4rch1t3ctur3
-- [ ] **Week 4:** Th3 C4sc4d3 B3g1n5
+- [x] **Week 1:** S3tup & 0nb04rd1ng
+- [x] **Week 2:** Th3 F1r5t T4g
+- [x] **Week 3:** D0cum3nt 4rch1t3ctur3
+- [x] **Week 4:** Th3 C4sc4d3 B3g1n5
 - [ ] **Week 5:** F0rm5 & 1nput5
 - [ ] **Week 6:** Fl3xb0x M45t3ry
 - [ ] **Week 7:** Tr1but3 P4g3
