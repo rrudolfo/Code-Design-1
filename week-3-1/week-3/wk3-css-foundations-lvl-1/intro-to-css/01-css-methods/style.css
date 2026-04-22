@@ -1,0 +1,20 @@
+.title {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.internal {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+
+.button {
+    background-color: hsl(44, 88%, 55%);
+    color: black;
+    font-size: 20px;
+    border: hsl(0, 0%, 75%) solid 2px;
+}
