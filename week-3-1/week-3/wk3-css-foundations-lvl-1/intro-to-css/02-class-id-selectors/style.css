@@ -1,1 +1,18 @@
 /* Add CSS Styling */
+.Odd-P{
+    background-color: hsl(350, 94%, 72%);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+
+}
+#Number-2{
+    color: blue;
+    font-size: 36px;
+}
+#cooler{
+    font-size: 24px;
+}
+#Number-4{
+    background-color: hsl(120, 98%, 66%);
+    font-size: 24px;
+    font-weight: bold;
+}
