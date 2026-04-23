@@ -1,0 +1,16 @@
+#page-hero{
+    text-align: center;
+}
+#main-title{
+    color: forestgreen;
+    font-size: 45px;
+    padding-bottom: 0%;
+}
+h2{
+    color: forestgreen;
+}
+.page-section-footer{
+    text-align: center;
+    font-style: italic;
+    padding-top: 5%;
+}

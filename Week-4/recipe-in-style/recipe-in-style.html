@@ -2,25 +2,42 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe</title>
+    <style>
+      .recipe-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+      .recipe-ingredients {
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 8px;
+      }
+      .recipe-instructions {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+      }
+    </style>
   </head>
   <body>
     
     <header id="page-hero" class="page-section-hero">
       <h1 id="main-title">Beef & Broccoli </h1>
-      <img src="images/beef&broccoli.pdf" style="width: 350px; height: auto;">
+      <img src="./images/Beef_and_broccoli_stir_fry.jpg" style="width: 350px; height: auto; padding-top: 0%;">
     </header>
     
-    <div id="page-content" class="page-region">
+    <section id="page-content" class="page-region">
       <div class="recipe-grid">
         <div class="recipe-ingredients">
           <h2>Ingredients</h2>
-          <p>
+          <p style="color: brown; font-weight: bold;">
             Only three ingredients so you have no reason not to try this today!
           </p>
-          <ul>
+          <ul >
             <li>Ground Beef 93% 7% - 1 lbs</li>
             <li>White Rain - 1 cup</li>
             <li>Broccoli <em>Or any veggie - 170g</em></li>
@@ -29,7 +46,7 @@
 
         <div class="recipe-instructions">
           <h2>Instructions</h2>
-          <p>Can be done in under 30 minutes!</p>
+          <p style="color: brown; font-weight: bold;">This recipe can be done in under 30 minutes!</p>
           <ol>
             <li>Put 1 cup of white rice into a rice cooker and 1 cup of water
               <br><strong>Make sure to wash your rice!</strong>
@@ -46,10 +63,12 @@
           </ol>
         </div>
       </div>
-    </div>
+    </section>
 
-    <footer id="page-footer" class="page-section footer">
-      <a href="https://www.youtube.com/shorts/frJ00IEnAz0">If you got lost at any point follow along here</a>
+    <footer id="page-footer" class="page-section-footer">
+      <a href="https://www.youtube.com/shorts/frJ00IEnAz0">If you got lost at any point follow along here</a><br>
+      <a href="https://noodleexpress.net/"> If you want to try this recipe but don't want to cook it yourself, check out Noodle Express!</a><br>
+      <a href="https://en.wikipedia.org/wiki/Beef_and_broccoli">Learn more about this dish</a>
     </footer>
       
   </body>
