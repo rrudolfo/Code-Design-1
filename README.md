@@ -24,8 +24,8 @@ This repo holds all my projects, exercises, and experiments from DESN 368 Spring
 - [x] **Week 2:** Th3 F1r5t T4g
 - [x] **Week 3:** D0cum3nt 4rch1t3ctur3
 - [x] **Week 4:** Th3 C4sc4d3 B3g1n5
-- [ ] **Week 5:** F0rm5 & 1nput5
-- [ ] **Week 6:** Fl3xb0x M45t3ry
+- [x] **Week 5:** F0rm5 & 1nput5
+- [x] **Week 6:** Fl3xb0x M45t3ry
 - [ ] **Week 7:** Tr1but3 P4g3
 - [ ] **Week 8:** Gr1d Sy5t3m5
 - [ ] **Week 9:** Pr0duct L4nd1ng
