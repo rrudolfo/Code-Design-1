@@ -9,7 +9,7 @@ This repo holds all my projects, exercises, and experiments from DESN 368 Spring
 + 'week-2/' - HTML 101 Exercises, Recipe page, HTML Skeleton
 + 'week-3/' - CSS foundations, Recipe Styling
 + 'week-4/' - Styled my recipe website, Developer Tools using Firefox developer
-+ 'week-5/' - First website with HTML and CSS (Tribute Page)
++ 'week-5/' - First website with HTML and CSS (Tribute Page), editing typography
 
 ## 🛠️ **My Toolkit**
 *Update these links as you complete each tool setup:*
