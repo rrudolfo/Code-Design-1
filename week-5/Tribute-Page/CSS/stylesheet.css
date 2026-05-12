@@ -1,0 +1,134 @@
+body {
+    background-color: #D1C0AC;
+    color: #333;
+    margin: 0%;
+    padding: 0%;
+}
+#title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 200px;
+    text-align: center;
+    margin: 2px;
+    padding: 0%;
+    color: #1D6455;
+}
+
+#description{
+    background-image: url('../Images/Headerimage.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding: 40px;
+    height: 700px;
+}
+
+#overview{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: bold;;
+    color: #D1C0AC;
+    background-color: #1D6455;
+    font-size: 30px;
+    position: relative;
+    top: 420px;
+    left: 400px;
+    padding: 15px;
+    width: 750px;
+}
+
+#timeline-list {
+    list-style: none;
+    padding-left: 50px;
+    color: #D1C0AC;
+    margin: 0px;
+    position: relative;
+    top: 76px;
+    left: 441px;
+}
+
+#timeline-list li {
+    margin-bottom: 10px;
+    font-family: 'Cardo',serif;
+    position: relative;
+    font-size: 22px;
+    
+}
+
+
+#timeline-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 65px;
+    margin: 0px;
+    color: #D9D9D9;
+    padding-left: 0px;
+}
+
+.timelinebox{
+    background-color: #1D6455;
+    width: 715px;
+    margin: 25px;
+    padding: 10px;
+}
+
+.TimeLine{
+    background-image: url('../Images/RingsImage.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+    padding: 0%;
+    height: 700px;
+}
+
+.Quote{
+    background-image: url('../Images/CoachImage.png');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+    padding: 0%;
+    height: 700px;
+}
+
+.Quote::before{
+    content: "";
+    position: absolute;
+    background-color: #443D3D;
+    background-size: cover;
+    background-position: center;
+    inset: 0;
+    opacity: 0.7;
+}
+
+.Quote h2,
+.Quote p{
+    font-family: 'Cormorant Garamond', serif;
+    position: relative;
+    color: #D1C0AC;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20%;
+    z-index: 1;
+}
+
+#quoted-by{
+    font-family: 'Cormorant Garamond', serif;
+    color: #D1C0AC;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0%;
+}
+
+footer{
+    color: #1D6455;
+}
+
+a{
+    color: #1D6455;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}

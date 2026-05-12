@@ -1,0 +1,75 @@
+body {
+  
+
+}
+
+.book-header {
+  margin: 5px;
+  font-family:"Oxanium";
+  
+
+}
+
+.genre-label {
+  font-style: italic;
+  
+
+}
+
+.book-title {
+  font-family: "Orbitron";
+  font-size: 50px;
+  margin: 10px;
+  font-weight: bold;
+  
+
+}
+
+.book-author {
+  font-family: "Oxanium";
+  margin: 5px;
+  padding-bottom: 0px;
+
+}
+
+.chapter-number {
+  font-weight: bold;
+
+}
+
+.chapter-title 
+{
+  font-family: "Orbitron";
+
+}
+
+.book-meta {
+
+}
+
+.book-date {
+
+}
+
+.book-excerpt {
+  line-height: 22px;
+  font-family: "cardo";
+
+}
+
+.book-excerpt p {
+  font-size: 18px;
+  line-height: 20px;
+
+}
+
+.typography-analysis {
+
+}
+
+.typography-analysis h2 {
+
+}
+.typography-analysis p {
+
+}
