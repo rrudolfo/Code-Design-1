@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS Reset Research</title>
+  </head>
+  <body>
+    <h1>CSS Resets</h1>
+
+    <h2>What browser inconsistencies bothered developers enough to create this?</h2>
+    <ul>
+      <li>Browsers used different default spacing for elements like headings, paragraphs, and lists, so pages did not look the same everywhere.</li>
+      <li>Lists were especially annoying because some browsers used margin for indentation, while others used padding.</li>
+      <li>Developers wanted a cleaner, more predictable starting point instead of fighting each browser’s built-in styles.</li>
+    </ul>
+
+    <h2>What changed between 2007 and now?</h2>
+    <ul>
+      <li>Modern browsers are much more consistent now, so resets do not need to be as heavy as older ones.</li>
+      <li>CSS has newer common fixes now, like <code>box-sizing: border-box</code>, responsive media defaults, and better form styling.</li>
+      <li>Modern resets are less about removing everything and more about creating a useful starting point.</li>
+    </ul>
+
+    <h2>Why does Josh modify or reject parts of Meyer’s approach?</h2>
+    <ul>
+      <li>Josh does not want a total blank slate; some browser defaults, like italic <code>&lt;em&gt;</code> text, are still useful.</li>
+      <li>Meyer’s reset is more aggressive, while Josh’s reset focuses on modern issues like image overflow, font inheritance, and readability.</li>
+      <li>Josh wants developers to understand and customize their reset instead of copying one forever.</li>
+    </ul>
+
+    <h2>The Variety of Approaches: Aggressive Resets vs. Gentle Normalization</h2>
+    <ul>
+      <li>Aggressive resets remove most browser default styling so the developer starts from almost nothing. Meyer’s reset is a good example of this style.</li>
+      <li>Gentle normalization keeps useful browser defaults but fixes inconsistencies. Normalize.css is a good example of this approach.</li>
+      <li>Modern middle-ground resets keep consistency but also add useful defaults like <code>box-sizing: border-box</code>, better default fonts, and clearer documented choices.</li>
+    </ul>
+
+    <h2>Other Reset or Normalize Approaches Online</h2>
+    <ul>
+      <li><strong>Normalize.css:</strong> a gentler alternative that preserves useful defaults while making elements render more consistently across browsers.</li>
+      <li><strong>modern-normalize:</strong> a smaller, modern version focused on current browsers, with additions like <code>box-sizing: border-box</code>.</li>
+      <li><strong>sanitize.css:</strong> includes normalize-style fixes, but also adds useful defaults and clearly documents which parts are normalizations versus opinions.</li>
+    </ul>
+
+    <h2>Why Reset at All? What Problem Does It Solve?</h2>
+    <ul>
+      <li>A reset gives you a more consistent starting point by reducing differences between browser default styles.</li>
+      <li>It prevents you from fighting unexpected built-in spacing, like default margins, padding, list indentation, and heading sizes.</li>
+      <li>It helps make your CSS more intentional because you choose the spacing, sizing, and layout instead of relying on browser defaults.</li>
+    </ul>
+
+    <h2>Why Josh’s Version Over Eric’s? Specific Differences</h2>
+    <ul>
+      <li>Josh keeps useful defaults. Eric’s reset is more aggressive and removes many default styles, while Josh keeps helpful browser defaults instead of making everything a blank slate.</li>
+      <li>Josh adds modern fixes. His reset includes things like <code>box-sizing: border-box</code>, responsive media handling, and better form font inheritance, which are more useful for modern CSS layouts.</li>
+      <li>Josh is less "wipe everything out." Eric’s reset focuses on reducing old browser inconsistencies, while Josh focuses more on improving the developer starting point without removing every style.</li>
+    </ul>
+
+    <h2>How Do You Actually Use These? Link Tag, Import, or Inline?</h2>
+    <ul>
+      <li>The best common method is to put the reset in its own CSS file, then link it before your main stylesheet.</li>
+    </ul>
+
+    <pre><code>&lt;link rel="stylesheet" href="reset.css"&gt;
+&lt;link rel="stylesheet" href="style.css"&gt;</code></pre>
+
+    <ul>
+      <li>You can also import it at the top of your main CSS file, but this is usually less preferred than using a normal link tag.</li>
+    </ul>
+
+    <pre><code>@import url("reset.css");</code></pre>
+
+    <ul>
+      <li>You can paste the reset directly at the top of your main CSS file. This works well for small custom resets because you can edit it for your project.</li>
+    </ul>
+
+    <h2>What’s a CSS Boilerplate vs. a Reset?</h2>
+    <ul>
+      <li>A CSS reset removes or adjusts browser default styles so every browser starts from a more consistent base.</li>
+      <li>A CSS boilerplate is a larger starting template that may include a reset, basic layout rules, typography, variables, utility classes, and starter project styles.</li>
+      <li>Simple difference: a reset is the cleanup step; a boilerplate is the full starter kit for building a website.</li>
+    </ul>
+
+    <h2>Why Use a Boilerplate? When Does It Help or Hurt?</h2>
+    <ul>
+      <li>It helps because it saves time by giving you a ready-made starting structure, like reset rules, typography, layout defaults, variables, and common utility classes.</li>
+      <li>It helps keep projects more consistent, especially when working on larger websites or with a team.</li>
+      <li>It can hurt because it may add extra CSS you do not understand or need, which can make your site harder to debug and customize.</li>
+    </ul>
+
+    <h2>Why Is Normalize.css Different from Resets? Philosophy Shift</h2>
+    <ul>
+      <li>Traditional resets remove styles so the developer starts from a blank slate; Normalize.css preserves useful browser defaults instead of wiping everything out.</li>
+      <li>Normalize.css focuses on fixing inconsistencies between browsers, not removing every margin, font size, or default style.</li>
+      <li>The philosophy shifts from "delete the browser’s styling" to "make browser styling more consistent and usable."</li>
+    </ul>
+
+    <h2>Sources</h2>
+    <ul>
+      <li>
+        <a href="https://meyerweb.com/eric/thoughts/2007/04/18/reset-reasoning/">
+          Eric Meyer — Reset Reasoning
+        </a>
+      </li>
+      <li>
+        <a href="https://www.joshwcomeau.com/css/custom-css-reset/">
+          Josh W. Comeau — A Modern CSS Reset
+        </a>
+      </li>
+      <li>
+        <a href="https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/">
+          Jeff Starr — A Killer Collection of Global CSS Reset Styles
+        </a>
+      </li>
+      <li>
+        <a href="https://necolas.github.io/normalize.css/">
+          Normalize.css
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/sindresorhus/modern-normalize">
+          modern-normalize
+        </a>
+      </li>
+      <li>
+        <a href="https://csstools.github.io/sanitize.css/">
+          sanitize.css
+        </a>
+      </li>
+    </ul>
+  </body>
+</html>
