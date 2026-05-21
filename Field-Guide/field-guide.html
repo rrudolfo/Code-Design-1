@@ -6,9 +6,12 @@
   <title>Field Guide</title>
   <link rel="stylesheet" href="CSS/stylesheet.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 </head>
+
+<!-- FIX: added missing <body> tag; header was outside <body> before -->
+<body>
 
 <header>
   <h1>Black Ops II: Origins Easter Egg</h1>
@@ -17,12 +20,42 @@
 <main class="container">
   <nav class="sidebar">
     <ul>
-      <li><a href="#map-overview">Map Overview</a></li>
-      <li><a href="#generators">Generators</a></li>
-      <li><a href="#the-staffs">The Staffs</a></li>
-      <li><a href="#the-crazy-place">The Crazy Place</a></li>
-      <li><a href="#easter-egg">Easter Egg</a></li>
-      <li><a href="#survival-tips">Survival Tips</a></li>
+      <li>
+        <a href="#map-overview" aria-label="Map Overview">
+          <img src="Images/map.svg" alt="">
+          <span>Map Overview</span>
+        </a>
+      </li>
+      <li>
+        <a href="#generators" aria-label="Generators">
+          <img src="Images/generator.svg" alt="">
+          <span>Generators</span>
+        </a>
+      </li>
+      <li>
+        <a href="#the-staffs" aria-label="The Staffs">
+          <img src="Images/staff.svg" alt="">
+          <span>The Staffs</span>
+        </a>
+      </li>
+      <li>
+        <a href="#the-crazy-place" aria-label="The Crazy Place">
+          <img src="Images/crazy.svg" alt="">
+          <span>The Crazy Place</span>
+        </a>
+      </li>
+      <li>
+        <a href="#easter-egg" aria-label="Easter Egg">
+          <img src="Images/egg.svg" alt="">
+          <span>Easter Egg</span>
+        </a>
+      </li>
+      <li>
+        <a href="#survival-tips" aria-label="Survival Tips">
+          <img src="Images/tips.svg" alt="">
+          <span>Survival Tips</span>
+        </a>
+      </li>
     </ul>
   </nav>
 
@@ -30,6 +63,7 @@
     <subheader>
       <h2>Everything You Need to Know</h2>
     </subheader>
+
     <section id="map-overview">
       <div id="map-background">
         <h2>Map Overview</h2>
@@ -41,22 +75,21 @@
       <div id="gen-background">
         <h2>Generators</h2>
       </div>
-        <p>Generators are one of the most important parts of Origins because they power key areas of the map. Instead of flipping a normal power switch, players must activate several generators located around the battlefield. While a generator is turning on, zombies attack the area, so players have to defend it until the process is complete. Turning on generators gives access to important machines, perks, Pack-a-Punch, and other parts of the Easter Egg.</p>
-
+      <p>Generators are one of the most important parts of Origins because they power key areas of the map. Instead of flipping a normal power switch, players must activate several generators located around the battlefield. While a generator is turning on, zombies attack the area, so players have to defend it until the process is complete. Turning on generators gives access to important machines, perks, Pack-a-Punch, and other parts of the Easter Egg.</p>
     </section>
 
     <section id="the-staffs">
       <div id="staff-background">
         <h2>The Staffs</h2>
       </div>
-      <p> The elemental staffs are the main special weapons in Origins. There are four staffs: Ice, Fire, Wind, and Lightning. Each staff has different parts hidden around the map, and each one has its own theme and attack style. After building the staffs, you can upgrade them by solving puzzles and completing steps  around the map. Upgrading all four staffs is one of the most important requirements for completing the Easter Egg.</p>
+      <p>The elemental staffs are the main special weapons in Origins. There are four staffs: Ice, Fire, Wind, and Lightning. Each staff has different parts hidden around the map, and each one has its own theme and attack style. After building the staffs, you can upgrade them by solving puzzles and completing steps around the map. Upgrading all four staffs is one of the most important requirements for completing the Easter Egg.</p>
     </section>
 
     <section id="the-crazy-place">
       <div id="crazy-background">
         <h2>The Crazy Place</h2>
       </div>
-      <p>The Crazy Place is a strange hidden area connected to the elemental staffs. Players enter it through portals around the map using gramophones and records. This area is important because it is where many staff upgrade puzzles happen. The Crazy Place is dangerous because walls can shift, zombies still attack, and players can easily get trapped if they are not paying attention. It feels like the “mystery zone” of the map and connects heavily to the story of Samantha and the Easter Egg.</p>
+      <p>The Crazy Place is a strange hidden area connected to the elemental staffs. Players enter it through portals around the map using gramophones and records. This area is important because it is where many staff upgrade puzzles happen. The Crazy Place is dangerous because walls can shift, zombies still attack, and players can easily get trapped if they are not paying attention. It feels like the "mystery zone" of the map and connects heavily to the story of Samantha and the Easter Egg.</p>
     </section>
 
     <section id="easter-egg">
@@ -74,8 +107,8 @@
     </section>
 
     <div class="buttons">
-      <button>View Portfolio</button>
-      <button>Case Study</button>
+      <button onclick="location.href='https://rrudolfo.github.io/Code-Design-1/'">View Portfolio</button>
+      <button onclick="location.href='case-study.html'">Case Study</button>
     </div>
   </div>
 </main>
@@ -83,3 +116,6 @@
 <footer>
   <small>&copy; 2026 Riley Rudolfo | Interactive Field Guide</small>
 </footer>
+
+</body>
+</html>

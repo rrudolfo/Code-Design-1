@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
+  background-color: #121212;
 }
 
 header{
@@ -52,8 +53,14 @@ header::before {
   text-decoration: none;
   
 }
+.sidebar a span{
+  display: inline;
+}
 .sidebar a:hover {
   color: #267AB6;
+}
+.sidebar img{
+  display: none;
 }
 
 html {
@@ -301,5 +308,105 @@ li{
   z-index: 0;
 }
 
+/* Mobile Layout */
+@media (max-width: 600px){
+  .sidebar{
+    max-width: 56px;
+    padding: 0.75rem 0
+    
+  }
+  .sidebar a span{
+    display: none;
+  }
+  .sidebar img{
+    width: 28px;
+    height: 28px;
+    display: block;
+  }
+  .sidebar a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem 0;
+  }
+  .sidebar ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .sidebar li{
+    width: 100%;
+  }
+  .buttons{
+    flex-direction: column;
+    align-items: stretch;
+    margin: 1.6rem;
+    gap: 0.75rem;
+  }
+  .buttons button{
+    width: 100%;
+  }
+
+}
+
+.case-study-main {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  min-height: auto;
+}
+ 
+.back-link {
+  display: inline-block;
+  color: #267AB6;
+  font-family: 'Averia Sans Libre', sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+}
+ 
+.back-link:hover {
+  color: #C9A646;
+}
+ 
+.case-study-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+ 
+.case-section {
+  background-color: #23272A;
+  margin-bottom: 2rem;
+  padding: 1.5rem 2rem;
+  scroll-margin-top: 1rem;
+}
+ 
+.case-section h3 {
+  font-family: 'Averia Serif Libre', serif;
+  font-size: 24px;
+  color: #C9A646;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(201, 166, 70, 0.3);
+  padding-bottom: 0.5rem;
+}
+ 
+.case-section p {
+  text-align: left;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+ 
+.case-section p:last-child {
+  margin-bottom: 0;
+}
+ 
+code {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #C9A646;
+  font-size: 0.9em;
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+}
 
 

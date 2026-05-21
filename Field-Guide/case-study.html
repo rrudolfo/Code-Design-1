@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Study | Field Guide</title>
+  <link rel="stylesheet" href="CSS/stylesheet.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+ 
+<body>
+ 
+<header>
+  <h1>Black Ops II: Origins Easter Egg</h1>
+</header>
+ 
+<main class="case-study-main">
+ 
+  <a href="field-guide.html" class="back-link">&#8592; Back to Guide</a>
+ 
+  <h2 class="case-study-title">Case Study</h2>
+ 
+  <section class="case-section" id="design-decisions">
+    <h3>Design Decisions: What design choices did you make and why?</h3>
+    <p>I chose a dark color scheme using deep charcoal backgrounds and gold text to match the war, atmospheric tone of the Origins map. 
+        The game itself is set in a dark, muddy World War I environment, so a dark UI felt more fitting.
+         The gold accent color mirrors the giant robots glowing eyes which is a big part of the map's identity. 
+         For typography I used Averia Serif Libre for headings and Averia Sans Libre for body text.  
+        I wanted the text to feel like it belonged in a field journal or explorer's guide, not a generic webpage.</p>
+  </section>
+ 
+  <section class="case-section" id="technical-challenges">
+    <h3>Technical Challenges: What was difficult to code? How did you solve it?</h3>
+    <p>The most difficult part was getting the sticky sidebar to behave correctly alongside the main content. 
+        Early on the sidebar would either scroll away with the page or push the content area out of alignment. 
+        I solved this by wrapping both in a flex container and giving the sidebar 
+        the position sticky and the top 0, which fixed this issues.</p>
+    <p>The background image sections with the dark overlay were also tricky. 
+        I needed the overlay to cover the image but not the text sitting on top of it. 
+        Using a before element and absolute positioning to the overlay rather then over the text.
+        than the heading solved this cleanly without needing extra wrapper divs for every section.</p>
+    <p>Getting the icons to display corrrectly while shrinking to smaller screens was difficult because would not show up so I had to 
+        expand the max-width of the media query to 600px to make sure the icons would show up on real devices.
+    </p>
+  </section>
+ 
+  <section class="case-section" id="responsive-strategy">
+    <h3>Responsive Strategy: How did you adapt your design for mobile?</h3>
+    <p>I used a single media query at 600px to handle the mobile layout. 
+        This breakpoint covers the range where the sidebar and text start to feel cramped on real devices. 
+        Rather than having multiple breakpoints, keeping one clean cutoff made the CSS easier to maintain.</p>
+    <p>On mobile the sidebar shrinks to a narrow 56px icon-only column. 
+        The text labels are hidden and the SVG icons remain visible, centered inside the bar. 
+        This preserves the navigation functionality without taking up horizontal space that the content needs.</p>
+    <p>The footer buttons switch from a horizontal row to a vertical stack. 
+        Each button stretches to the width of the sections, which makes them much easier to tap on a touchscreen. 
+        I also reduced section margins on mobile so the content area uses the available width more efficiently.</p>
+  </section>
+ 
+  <section class="case-section" id="learning-moments">
+    <h3>Learning Moments: What did you learn about Flexbox or CSS positioning?</h3>
+    <p>This project gave me a much clearer understanding of how positioning works in practice. 
+        I learned that a sticky elements only works if its parent container is tall enough to scroll past it, 
+        and that overflow settings on parent elements can silently break sticky behavior. 
+        Debugging that helped me understand the relationship between parent and child positioning in a way that reading about it alone never had.</p>
+    <p>I also got more comfortable using Flexbox for layout. 
+         On the container was important so the sidebar did not stretch to the 
+        full height of the content column. I had initially left it at the default and was confused why the sidebar background was
+         extending far beyond its content.</p>
+  </section>
+ 
+  <section class="case-section" id="future-improvements">
+    <h3>Future Improvements: What would you add or change with more time?</h3>
+    <p>With more time I would add more interactive elements to the guide. 
+        For example, I could include collapsible sections for each part of the Easter Egg, so players could expand them to see detailed steps and images. 
+        I would also add a map overlay feature where users could click on different areas of the map to see tips and information specific to that location.</p>
+    <p>I would also expand the content sections with actual gameplay images and step-by-step numbered lists for the Easter Egg steps. 
+        Right now the sections use paragraph text, but a guide like this would benefit from more visual structure — 
+        numbered steps, callout boxes for tips, and annotated screenshots of key locations.</p>
+    <p>On the technical side I would refactor the six background image sections into a single reusable CSS class with a 
+        custom property for the image URL, rather than six separate IDs. 
+        That would reduce repetition significantly and make it easier to add new sections in the future without copying 
+        and pasting the same block of CSS each time.</p>
+  </section>
+ 
+</main>
+ 
+<footer>
+  <small>&copy; 2026 Riley Rudolfo | Interactive Field Guide</small>
+</footer>
+ 
+</body>
+</html>
