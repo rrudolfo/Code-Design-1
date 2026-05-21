@@ -1,7 +1,9 @@
+/* Global box-sizing makes width and height include padding/border. */
 * {
   box-sizing: border-box;
 }
 
+/* Page-level base styles: body background, font, and line spacing. */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -9,7 +11,8 @@ body {
   background-color: #121212;
 }
 
-header{
+/* Hero header with a full-width background image and overlay. */
+header {
   background-image: url('../Images/Header-img.png');
   background-size: cover;
   background-position: center;
@@ -18,6 +21,7 @@ header{
   position: relative;
 }
 
+/* Dark overlay on the header image to improve text contrast. */
 header::before {
   content: '';
   position: absolute;
@@ -29,15 +33,16 @@ header::before {
   pointer-events: none;
 }
 
+/* Main layout container uses flexbox so sidebar and content sit side by side. */
 .container {
   display: flex;
   flex: 1;
   align-items: flex-start;
   padding-left: 1rem;
-  padding-right: 1rem;;
-
+  padding-right: 1rem;
 }
 
+/* Sidebar panel stays visible while scrolling with sticky positioning. */
 .sidebar {
   width: 300px;
   position: sticky;
@@ -46,44 +51,56 @@ header::before {
   padding: 1rem;
   background-color: #23272A;
 }
+
+/* Sidebar link appearance: gold text and serif heading style. */
 .sidebar a {
   color: #C9A646;
   font-family: 'Averia Serif Libre', serif;
   font-size: 28px;
   text-decoration: none;
-  
 }
-.sidebar a span{
+
+/* Keep span content inline for links. */
+.sidebar a span {
   display: inline;
 }
-.sidebar a:hover {
+
+/* Hover and focus state for link visual feedback. */
+.sidebar a:hover,
+.sidebar a:focus-visible {
   color: #267AB6;
 }
-.sidebar img{
+
+/* Hide sidebar images by default; used if responsive design later adds them. */
+.sidebar img {
   display: none;
 }
 
+/* Smooth scrolling when navigation jumps to anchors. */
 html {
   scroll-behavior: smooth;
 }
 
+/* Section cards use dark background and spacing for separation. */
 section {
   padding: 0rem;
   margin: 0 2rem 2rem 2rem;
-
   background: #23272A;
   scroll-margin-top: 1rem;
   position: relative;
 }
-.buttons{
+
+/* Button group layout centers buttons and adds spacing between them. */
+.buttons {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
   margin: 2rem;
-  
 }
-button{
+
+/* Primary button styles: color, spacing, and subtle shadow. */
+button {
   background-color: #267AB6;
   color: #E6E0D4;
   border: none;
@@ -93,13 +110,15 @@ button{
   min-width: 140px;
   border-radius: 6px;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
+/* Button press state to show interactive feedback. */
 button:active {
   transform: translateY(1px);
 }
 
+/* Footer styling at the bottom of the page. */
 footer {
   text-align: center;
   padding: 1rem;
@@ -107,7 +126,8 @@ footer {
   color: #E6E0D4;
 }
 
-h1{
+/* Large page title styling. */
+h1 {
   font-family: 'Averia Serif Libre', serif;
   font-size: 100px;
   text-align: center;
@@ -117,30 +137,36 @@ h1{
   z-index: 1;
 }
 
-h2{
+/* Section title styling. */
+h2 {
   font-family: 'Averia Sans Libre', sans-serif;
   font-size: 60px;
   text-align: center;
   color: #C9A646;
 }
-p{
+
+/* Paragraph content style with centered text and padding. */
+p {
   font-family: Averia Sans Libre, sans-serif;
   font-size: 24px;
   color: #E6E0D4;
-  margin: 1rem 1rem 1rem 1rem;
-  padding: 1rem 1rem 1rem 1rem;
+  margin: 1rem;
+  padding: 1rem;
   text-align: center;
 }
 
-main{
+/* Main region background to match page. */
+main {
   background-color: #121212;
 }
 
-li{
+/* Remove default list marker styling for custom list visuals. */
+li {
   list-style: none;
 }
 
-#map-background{
+/* Map section background image with centered content. */
+#map-background {
   background-image: url(../Images/map-overview-img.png);
   background-size: cover;
   background-position: center;
@@ -151,12 +177,14 @@ li{
   position: relative;
 }
 
+/* Ensure heading sits above the overlay. */
 #map-background h2 {
   position: relative;
   z-index: 1;
   margin: 0;
 }
 
+/* Dark overlay on the map section for better readability. */
 #map-background::before {
   content: '';
   position: absolute;
@@ -169,7 +197,8 @@ li{
   z-index: 0;
 }
 
-#gen-background{
+/* Generator section background with the same overlay treatment. */
+#gen-background {
   background-image: url(../Images/Generators-img.png);
   background-size: cover;
   background-position: center;
@@ -180,12 +209,14 @@ li{
   position: relative;
 }
 
+/* Generator heading remains readable over the image. */
 #gen-background h2 {
   position: relative;
   z-index: 1;
   margin: 0;
 }
 
+/* Overlay to darken the generator background image. */
 #gen-background::before {
   content: '';
   position: absolute;
@@ -336,6 +367,17 @@ li{
   }
   .sidebar li{
     width: 100%;
+  }
+  .sidebar a:hover,
+  .sidebar a:focus-visible,
+  .sidebar a:active {
+    color: #267AB6;
+    background-color: rgba(38, 122, 182, 0.15);
+    border-radius: 12px;
+  }
+  .sidebar a:focus-visible {
+    outline: 2px solid rgba(38, 122, 182, 0.65);
+    outline-offset: 2px;
   }
   .buttons{
     flex-direction: column;
