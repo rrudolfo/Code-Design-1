@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cereal Killer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Creepster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header id="header">
+    <a class="brand" href="#hero" aria-label="Cereal Killer home">
+      <img id="header-img" src="Images/Original_flavor.svg" alt="Cereal Killer cereal box logo">
+      <span>CEREAL KILLER</span>
+    </a>
+
+    <nav id="nav-bar" aria-label="Main navigation">
+      <a class="nav-link" href="#features">Products</a>
+      <a class="nav-link" href="#problem">The Problem</a>
+      <a class="nav-link nav-button" href="#contact">Join us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="hero-line">CEREAL KILLER</span>
+          <span class="hero-line">PROMISES A</span>
+          <span class="hero-line hero-red">SCARY-GOOD</span>
+          <span class="hero-line">BREAKFAST</span>
+        </h1>
+        <p class="hero-copy">
+          That murders your morning hunger with every bite.
+        </p>
+        <a class="button primary-button" href="#features">Shop Now</a>
+      </div>
+    </section>
+
+    <section id="problem" class="split-section">
+      <div class="section-copy">
+        <h2>THE PROBLEM</h2>
+        <p class="problem-copy">
+          BLAND CEREALS. EMPTY CALORIES. THE 10AM CRASH. YOUR BREAKFAST ISN'T FAILING YOU...
+        </p>
+        <p class="problem-line">IT'S HAUNTING YOU.</p>
+        <a class="button dark-button" href="#data">See the Proof</a>
+      </div>
+      <img src="Images/Problem_section image.svg" alt="A spoon lifting skull cereal from a bowl of milk">
+    </section>
+
+    <section id="features" class="features-section">
+      <div class="section-heading">
+        <p class="eyebrow">Our killer lineup</p>
+        <h2>PRODUCTS</h2>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card original-card">
+          <img src="Images/Original_flavor.svg" alt="Original Taste Cereal Killer cereal box">
+          <div class="product-card-text">
+            <h3>ORIGINAL</h3>
+            <p>The classic that started the cereal massacre.</p>
+            <p class="price product-price">$8.99</p>
+          </div>
+        </article>
+
+        <article class="feature-card berry-card">
+          <img src="Images/Berry_flavor.svg" alt="Berry Blood Cereal Killer cereal box">
+          <div class="product-card-text">
+            <h3>BERRY BLOOD</h3>
+            <p>Frightfully fruity. Dangerously good.</p>
+            <p class="price product-price">$8.99</p>
+          </div>
+        </article>
+
+        <article class="feature-card choco-card">
+          <img src="Images/Choco_flavor.svg" alt="Choco Chainsaw Cereal Killer cereal box">
+          <div class="product-card-text">
+            <h3>CHOCO CHAINSAW</h3>
+            <p>Chocolatey. Crunchy. Absolutely brutal.</p>
+            <p class="price product-price">$8.99</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="data" class="data-section">
+      <div class="section-heading">
+        <h2>THE FACTS</h2>
+      </div>
+
+      <div class="table-scroll">
+        <table id="data-table">
+          <caption>Cereal Killer nutrition facts</caption>
+          <thead>
+            <tr>
+              <th scope="col">FLAVOR</th>
+              <th scope="col">CALORIES<br>PER SERVING</th>
+              <th scope="col">WHOLE GRAINS<br>(G)</th>
+              <th scope="col">SUGAR<br>(G)</th>
+              <th scope="col">PROTEIN<br>(G)</th>
+              <th scope="col">VITAMINS &amp;<br>MINERALS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Original</th>
+              <td>150</td>
+              <td>13g</td>
+              <td>12g</td>
+              <td>3g</td>
+              <td>12 Essential</td>
+            </tr>
+            <tr class="berry-row">
+              <th scope="row">Berry Blood</th>
+              <td>160</td>
+              <td>12g</td>
+              <td>13g</td>
+              <td>3g</td>
+              <td>12 Essential</td>
+            </tr>
+            <tr>
+              <th scope="row">Choco Chainsaw</th>
+              <td>160</td>
+              <td>13g</td>
+              <td>14g</td>
+              <td>4g</td>
+              <td>12 Essential</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="join-copy">
+        <p class="eyebrow">Join us</p>
+        <h2>JOIN THE KILL CREW</h2>
+        <p>
+          GET EXCLUSIVE DROPS, BITES, DEALS, AND BREAKFAST TIPS THAT HIT DIFFERENT.
+        </p>
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+          <label class="visually-hidden" for="email">Email address</label>
+          <div class="join-fields">
+            <input id="email" name="email" type="email" placeholder="ENTER YOUR EMAIL" autocomplete="email" required>
+            <button id="submit" class="button primary-button" type="submit">JOIN NOW</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="video-panel">
+        <video id="video" class="promo-video" controls aria-label="Cereal Killer commercial parody video">
+          <source src="Images/Cereal_Killer_commerical_parody.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      &copy; 2026 RILEY RUDOLFO |
+      <a href="#contact">ABOUT</a> |
+      <a href="#features">PRODUCTS</a> |
+      <a href="#contact">HELP</a>
+    </p>
+  </footer>
+</body>
+</html>
