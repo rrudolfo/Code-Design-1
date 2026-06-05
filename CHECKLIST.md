@@ -73,8 +73,8 @@
 
 ## Part 7: Submission
 
-- [ ] Pushed all changes to GitHub
-- [ ] GitHub Pages site is live and working
-- [ ] Submitted Canvas: Link to live portfolio
-- [ ] Submitted Canvas: Link to GitHub repository
-- [ ] Submitted Canvas: Link to Figma file
+- [x] Pushed all changes to GitHub
+- [x] GitHub Pages site is live and working
+- [x] Submitted Canvas: Link to live portfolio
+- [x] Submitted Canvas: Link to GitHub repository
+- [x] Submitted Canvas: Link to Figma file
