@@ -6,7 +6,7 @@
 - [x] Created archive/ folder
 - [x] Moved old README to archive/course-log.md
 - [x] Created new index.html (portfolio home page)
-- [] Created new README.md using the template
+- [x] Created new README.md using the template
 - [x] Created css/ folder for portfolio styles
 - [x] Created images/ folder for portfolio images
 - [x] All week-XX folders are still in root (not moved)
@@ -19,12 +19,12 @@
 - [x] Defined 5-color palette (Background, Text, Accent, Secondary, Error/Success)
 - [x] Created Desktop mockup
 - [ ] Created Mobile mockup
-- [ ] If I pivoted from original direction, I justified the change in my reflection
+- [x] If I pivoted from original direction, I justified the change in my reflection
 
 ## Part 3: Portfolio Build — Content
 
 - [x] Welcome/Hero section with introduction
-- [ ] Bio section (career goals, skills, interests, story)
+- [x] Bio section (career goals, skills, interests, story)
 - [x] Image of myself (photo or illustration)
 - [x] Project Card: The Recipe (thumbnail + title + description + link)
 - [x] Project Card: Tribute Site (thumbnail + title + description + link)
@@ -51,25 +51,25 @@
 
 ## Part 5: Reflection
 
-- [ ] Created reflection page (linked from portfolio)
-- [ ] The Threshold: Answered in 3-5 sentences minimum
-- [ ] The Pit: Answered in 3-5 sentences minimum
-- [ ] The Pivot: Answered in 3-5 sentences minimum
-- [ ] The Process: Answered in 3-5 sentences minimum
-- [ ] The Future: Answered in 3-5 sentences minimum
+- [x] Created reflection page (linked from portfolio)
+- [x] The Threshold: Answered in 3-5 sentences minimum
+- [x] The Pit: Answered in 3-5 sentences minimum
+- [x] The Pivot: Answered in 3-5 sentences minimum
+- [x] The Process: Answered in 3-5 sentences minimum
+- [x] The Future: Answered in 3-5 sentences minimum
 
 ## Part 6: README Documentation
 
-- [ ] Updated About section with my information
-- [ ] Added live portfolio link
-- [ ] Added learning log link
-- [ ] Filled in Design Direction (fonts, colors, vibe)
-- [ ] Listed all four featured projects with descriptions
-- [ ] Credited any assets I didn't create
-- [ ] Cited tutorials or resources I used
-- [ ] Disclosed AI assistance (or noted "none")
-- [ ] Added link to Figma file
-- [ ] Deleted the "How to Use" comment block at top
+- [x] Updated About section with my information
+- [x] Added live portfolio link
+- [x] Added learning log link
+- [x] Filled in Design Direction (fonts, colors, vibe)
+- [x] Listed all four featured projects with descriptions
+- [x] Credited any assets I didn't create
+- [x] Cited tutorials or resources I used
+- [x] Disclosed AI assistance (or noted "none")
+- [x] Added link to Figma file
+- [x] Deleted the "How to Use" comment block at top
 
 ## Part 7: Submission
 
